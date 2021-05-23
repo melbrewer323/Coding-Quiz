@@ -12,32 +12,48 @@
       height: 100vh;
       justify-content: center;
       align-items: center;
+      border: 5px;
+      
       
 
   }
 
-  .contanier {
+  .homePage .contanier {
       width: 600px;
       height: 500px;
       max-width: 80%;
-      background-color: rgb(167, 247, 113);
-      border-radius: 10px;
       padding: 15px;
+    
       
   }
 
+ 
+
   .btns {
       padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
      
     
     }
-    .btns #startBtn {
-        background-color: rgba(20, 20, 20, 0.253);
-        padding: 15px; 32px:
-       
+    #startButton {
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: gray;
+        padding: 15px; 32px;
+        display: flex;
+       justify-content: center;
      }
-     .btns #nextBtn {
-        background-color: rgba(20, 20, 20, 0.253);
-        padding: 15px; 32px:
+    #nextButton {
+        background-color: gray;
+        padding: 10px 25px
+
      }
+
+    /*  .hide{
+         display: none;
+     }
+     
+     */
