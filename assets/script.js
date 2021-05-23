@@ -1,10 +1,8 @@
-/*var StartBtnEl = document.querySelector("#startButton");
-var NextBtnEl = document.querySelector("#nextButton");
-var container = document.querySelector(".comtanier")
+var startBtnEl = document.querySelector("#startButton");
+var homePageEl = document.querySelector(".homePage");
+var questionContainerEl = document.querySelector("#questionContainer");
 
-StartBtn.addEventListener("click", startButton);
-
-
+startBtnEl.addEventListener("click", startgame)
 
 var questions = [
 	{
@@ -49,31 +47,11 @@ var questions = [
 	},
 ];
 
-for(var i=0; i < questions.length; i++){
-    
-}
-*/
-var startBtnEl = document.querySelector("#startButton");
-var homePageEl = document.querySelector(".homePage");
-var questionContainerEl = document.querySelector("#questionContainer");
-
-startBtnEl.addEventListener("click", startgame)
-
 function startgame() {
     console.log("started")
     homePageEl.classList.add("hide")
     questionContainerEl.classList.remove("hide")
+    setNextQuestion()
 
 }
 
-function setNextQuestion() {
-
-
-
-}
-
-function selectAnswer() {
-
-
-
-}
